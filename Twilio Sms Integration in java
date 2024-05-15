@@ -11,7 +11,7 @@ public class TwilioUtil {
                 toPhoneNumber = 1 + phoneNumber;
             }
             Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
-            Message.creator(new com.twilio.type.PhoneNumber(toPhoneNumber), new com.twilio.type.PhoneNumber("+15125998308"), message).create();
+            Message.creator(new com.twilio.type.PhoneNumber(toPhoneNumber), new com.twilio.type.PhoneNumber("your varified phone number with countrycode"), message).create();
 
         } catch (Exception e) {
             logger.error(e.getMessage());
