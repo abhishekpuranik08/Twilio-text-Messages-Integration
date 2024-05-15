@@ -2,6 +2,8 @@ To integrate Twilio SMS notifications in a Java application, especially with a c
 
 
 Add Twilio Dependency: Ensure that your Maven project includes the Twilio SDK. Add the latest version of the Twilio SDK dependency in your pom.xml.
+
+
 <dependency>
     <groupId>com.twilio.sdk</groupId>
     <artifactId>twilio</artifactId>
